@@ -53,11 +53,13 @@ ul{
 
 .header-class{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 1px 6px 0 rgba(46, 47, 66, 0.08),0 1px 1px 0 rgba(46, 47, 66, 0.16),0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header-container{
     display: flex;
     align-items: center;
+
 }
 
 /*logo start*/
@@ -110,6 +112,8 @@ gap: 40px;
     color: #2e2f42;
     display: block;
     padding: 24px 0;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation.website{
@@ -126,13 +130,15 @@ background-color: #404BBF;
 bottom: -1px;
 left: 0;
 }
-.navigation:hover{
+.navigation:hover,
+.navigation:focus,
+.contacts-info:hover,
+.contacts-info:focus,
+.navigation.website
+{
     color: #404bbf;
 }
 
-.navigation:focus{
-    color: #404bbf;
-}
 
 .contacts{
     font-style: normal;
@@ -151,14 +157,7 @@ left: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
-.contacts-info:hover{
-    color: #404bbf;
-}
-
-.contacts-info:focus {
-    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*navigations end*/
@@ -394,6 +393,7 @@ position: relative;
 overflow: hidden;
 box-shadow: none;
 transition-property: box-shadow;
+cursor: pointer;
 }
 
 .overlay{
