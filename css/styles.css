@@ -334,6 +334,16 @@ align-items: center;
 justify-content: center;
 }
 
+.social-media:hover,
+.social-media:focus{
+    background-color: #404bbf;
+}
+
+.social-media.footer-media:hover,
+.social-media.footer-media:focus{
+    background-color: #31d0aa;
+}
+
 /*our team end*/
 
 /*our portfolio start*/
