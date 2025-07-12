@@ -61,7 +61,6 @@ ul{
 .header-container{
     display: flex;
     align-items: center;
-
 }
 
 /*logo start*/
@@ -174,9 +173,11 @@ left: 0;
     background-size: cover;
 }
 
+
 .section-two{
     padding: 120px 0;
 }
+
 
 .section-three{
     background-color: #F4F4FD;
