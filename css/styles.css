@@ -171,6 +171,7 @@ left: 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 
 
@@ -502,8 +503,6 @@ margin-bottom: 16px;
 
 .socialist{
 margin-left: 0;
-margin-right: 692px;
-width: 208px;
 }
 
 
